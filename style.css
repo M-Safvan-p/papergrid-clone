@@ -1,0 +1,156 @@
+*{
+    margin: 0 ;
+    font-family: Arial, sans-serif;
+}
+header{
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+header .first-section{
+    padding: 11px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border: 0;
+    border-bottom: 1px;
+    border-color:rgba(107, 104, 104, 0.361);
+    border-style: solid;
+    margin-top: 0;
+}
+.first-section p{
+    color: white;
+    font-size: 12px;
+    letter-spacing: 0.8px;
+}
+.first-section .my-icon{
+    color: white;
+    margin-left: 6px;
+}
+.first-section:hover{
+    cursor: pointer;
+    
+}
+.logo-section{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+}
+.logo-section .logo h2{
+    color: white;
+    margin-left: 120px;
+}
+.logo-section nav{
+    margin-left: 30px;
+}
+.logo-section nav a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: rgb(141, 141, 141);
+}
+.logo-section nav a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.profil-cart{
+    margin-left: 660px;
+}
+.profil-cart .my-icon{
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+main .img-container{
+    width: 1300px;
+    height: auto;
+    margin-top: 40px;
+    padding-left: 140px;
+    display: grid;
+    grid-template-columns: repeat(3,356px);
+    grid-template-rows:  repeat(3,376px);
+    column-gap: 40px;
+}
+main .img-container img{
+    width: 100%;
+    height: 356px;
+}
+.founder-container{
+    display: flex;
+}
+.founder-container .image{
+    margin: 70px 0 80px 180px;
+
+}
+.founder-container .image img{
+    width: 370px;
+    height: 500px;
+}
+.founder-container .about-section{
+    margin: 135px 0 0 80px;
+}
+.about-section h2{
+    font-weight: lighter;
+}
+.about-section p{
+    color: rgb(137, 140, 144);
+    margin: 30px 0;
+    font-size: larger;
+}
+.about-section .about-btn{
+    background-color: black;
+    width: 150px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-btn h3{
+    color: white;
+    font-weight: normal;
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 35px 0;
+}
+footer a{
+    color: rgb(137, 140, 144);
+    font-size: 15px;
+}
+footer a:hover{
+    color: white;
+}
+footer .my-icon{
+    font-size: 22px;
+}
+footer .line{
+    width: 100%;
+    background-color:rgba(107, 104, 104, 0.361);
+    height: 1px;
+    margin: 40px 0;
+}
+footer .last-section{
+    margin-right: 450px;
+}
+footer .last-section p{
+    font-size: 13px;
+    color: rgb(137, 140, 144);
+    float: left;
+    margin-top: 2.5px;
+}
+footer .last-section a{
+    margin-left: 7px;
+    text-decoration: none;
+    font-size: 13px;
+}
+footer .last-section a:hover{
+    text-decoration: underline;
+}
