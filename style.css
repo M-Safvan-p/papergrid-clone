@@ -1,0 +1,37 @@
+* {
+  font-family: Arial, sans-serif;
+}
+.my-top{
+    background-color: black;
+}
+header {
+  background-color: black;
+  position: sticky;
+  top: 0;
+}
+header p {
+  font-size: 12px;
+  letter-spacing: 0.8px;
+}
+header .navbar {
+  background-color: black;
+}
+header .my-nav a {
+  color: rgb(141, 141, 141);
+}
+header .nav-link:hover {
+  color: white;
+  text-decoration: underline;
+}
+section p{
+  color: rgb(141, 141, 141);
+}
+footer{
+  background-color: black;
+}
+footer a,p {
+  color: rgb(141, 141, 141);
+}
+footer a:hover{
+  color: white;
+}
